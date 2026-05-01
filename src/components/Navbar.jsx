@@ -1,8 +1,17 @@
+'use client'
 import Image from 'next/image';
 import logo from '@/assets/logo.png'
 import Link from 'next/link';
+import { useSession } from '@/lib/auth-client';
 
 const Navbar = () => {
+
+    const {data, isPending} = useSession();
+    if(isPending){
+        return <div>Loading...</div>
+    }
+    const user = data?.user;
+    const image = user?.image;
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -26,7 +35,14 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <Link href='/auth/login' className='btn'>Login</Link>
+                <Link href='/auth/register' className='btn'>Register</Link>
+                {/* <Image src={image} height={0} width={50} alt='user image' className='rounded-full'> */}
+                    
+                {/* </Image> */}
+                <div>
+                    {user?.name}
+                </div>
             </div>
         </div>
     );
