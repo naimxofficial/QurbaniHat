@@ -50,18 +50,20 @@ const Navbar = () => {
             {
                 !user && <div className="navbar-end gap-4">
                     <Link href='/auth/login' className='btn btn-outline btn-success'>Login</Link>
-                    <Link href='/auth/register' className='btn btn-success'>Register</Link>
+                    <Link href='/auth/register' className='btn btn-success text-white'>Register</Link>
                     <div>
                         {user?.name}
                     </div>
                 </div>}
             {
                 user && <div className="navbar-end gap-3">
+                    <Link href={'/profile'}>
                     <Avatar>
                         <Avatar.Image alt={user?.name} src={user?.image}
                             referrerPolicy='no-referrer' />
                         <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
                     </Avatar>
+                    </Link>
                     <Button onClick={handleLogout} variant='danger'>Logout</Button>
                 </div>
             }
