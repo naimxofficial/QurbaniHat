@@ -2,6 +2,7 @@
 import { authClient } from "@/lib/auth-client";
 import { Check, Eye, EyeSlash } from "@gravity-ui/icons";
 import { Button, FieldError, Form, Input, InputGroup, Label, TextField } from "@heroui/react";
+import Link from "next/link";
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { toast } from "react-toastify";
@@ -102,6 +103,7 @@ const Login = () => {
                 <h4 className="text-center font-bold text-gray-500">Or</h4>
                 <Button onClick={handleGoogleLogin} variant="outline" className={'w-full'}><FcGoogle />Login with Google</Button>
             </Form>
+            <p className="text-center"><span className="font-semibold text-red-500">Note: </span>If your don&apos;t have an account, please <Link className="font-bold underline" href='/auth/register'>create an account</Link> before trying to login.</p>
         </div>
 
     );

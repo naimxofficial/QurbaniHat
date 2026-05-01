@@ -2,16 +2,29 @@
 import Image from 'next/image';
 import logo from '@/assets/logo.png'
 import Link from 'next/link';
-import { useSession } from '@/lib/auth-client';
+import { authClient, useSession } from '@/lib/auth-client';
+import { Avatar, Button } from '@heroui/react';
+import { useRouter } from 'next/navigation';
+
 
 const Navbar = () => {
+    const router = useRouter();
 
-    const {data, isPending} = useSession();
-    if(isPending){
+    const { data, isPending } = useSession();
+    if (isPending) {
         return <div>Loading...</div>
     }
     const user = data?.user;
-    const image = user?.image;
+
+    const handleLogout = async () => {
+        await authClient.signOut({
+            fetchOptions: {
+                onSuccess: () => {
+                    location.reload();
+                },
+            },
+        });
+    }
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -34,16 +47,24 @@ const Navbar = () => {
                     <li><Link href={'/allanimals'}>All Animals</Link></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <Link href='/auth/login' className='btn'>Login</Link>
-                <Link href='/auth/register' className='btn'>Register</Link>
-                {/* <Image src={image} height={0} width={50} alt='user image' className='rounded-full'> */}
-                    
-                {/* </Image> */}
-                <div>
-                    {user?.name}
+            {
+                !user && <div className="navbar-end gap-4">
+                    <Link href='/auth/login' className='btn btn-outline btn-success'>Login</Link>
+                    <Link href='/auth/register' className='btn btn-success'>Register</Link>
+                    <div>
+                        {user?.name}
+                    </div>
+                </div>}
+            {
+                user && <div className="navbar-end gap-3">
+                    <Avatar>
+                        <Avatar.Image alt={user?.name} src={user?.image}
+                            referrerPolicy='no-referrer' />
+                        <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+                    </Avatar>
+                    <Button onClick={handleLogout} variant='danger'>Logout</Button>
                 </div>
-            </div>
+            }
         </div>
     );
 };
