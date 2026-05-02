@@ -12,7 +12,7 @@ const Footer = () => {
                 <p className=''>
                     <strong className='text-xl'>QurbaniHat - Livestock Booking Platform.</strong>
                     <br />
-                    <em className='font-light'>A modern livestock marketplace where users can <br /> explore animals for Qurbani such as cows and goats. <br /> Users can view details and place a booking after authentication.
+                    <em className='font-light'>A modern livestock marketplace where users can <br /> explore animals for Qurbani such as cows and goats.
                     </em>
                 </p>
             </aside>
