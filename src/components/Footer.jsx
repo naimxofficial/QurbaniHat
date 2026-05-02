@@ -1,4 +1,4 @@
-import qurbanihat from '@/assets/qurbanihat.svg'
+import qurbanihat from '@/assets/qurbanihat.png'
 import Image from 'next/image';
 
 const Footer = () => {
