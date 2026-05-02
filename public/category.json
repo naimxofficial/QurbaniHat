@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "category": "All Animals",
+    "slug": "all-animals"
+  },
+  {
+    "id": 2,
+    "category": "Large Animal",
+    "slug": "large-animal"
+  },
+  {
+    "id": 3,
+    "category": "Small Animal",
+    "slug": "small-animal"
+  }
+]
