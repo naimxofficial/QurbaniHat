@@ -9,7 +9,7 @@
     "age": 3,
     "location": "Bogura",
     "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural খাবার। Strong and active animal raised in open field.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Cow_female_black_white.jpg/320px-Cow_female_black_white.jpg",
+    "image": "https://i.ibb.co.com/sdZQycZ6/Deshi-Shahi-Cow.jpg",
     "category": "Large Animal"
   },
   {
@@ -22,7 +22,7 @@
     "age": 4,
     "location": "Sirajganj",
     "description": "Premium Brahman bull with excellent body structure. Ideal for Qurbani with heavy weight and healthy condition. Vaccinated and dewormed.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/BrahmanBull.jpg/320px-BrahmanBull.jpg",
+    "image": "https://i.ibb.co.com/VczXgnTJ/BRC-Money-Dont-Jiggle-240.jpg",
     "category": "Large Animal"
   },
   {
@@ -35,7 +35,7 @@
     "age": 2,
     "location": "Rajshahi",
     "description": "Pure Merino sheep imported breed, very calm and healthy. Suitable for Qurbani and wool production. Raised on green grass and hay.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ovis_orientalis_aries_'Rauhwolliges_Pommersches_Landschaf'.jpg/320px-Ovis_orientalis_aries_'Rauhwolliges_Pommersches_Landschaf'.jpg",
+    "image": "https://i.ibb.co.com/5x6Yk5Fs/MA85562312-merinos-1200w.jpg",
     "category": "Small Animal"
   },
   {
@@ -48,7 +48,7 @@
     "age": 1,
     "location": "Natore",
     "description": "Famous Black Bengal goat — the pride of Bangladesh. High quality meat and very healthy. Perfect for Qurbani and daily farming.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Black_Bengal_goat.jpg/320px-Black_Bengal_goat.jpg",
+    "image": "https://i.ibb.co.com/n81S68Qj/Black-Bengal-Goat-Breed-Info-Characteristics-Breeding-and-Care-FI-1.jpg",
     "category": "Small Animal"
   },
   {
@@ -60,8 +60,7 @@
     "weight": 55,
     "age": 3,
     "location": "Pabna",
-    "description": "Large Jamnapari breed goat with long ears and excellent body mass. Well known for high milk yield and meat quality. Vaccinated regularly.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jamnapari_Goat.jpg/320px-Jamnapari_Goat.jpg",
+    "description": "https://i.ibb.co.com/R4VctXnx/daf305f648604e9da9654b75519f365c.jpg",
     "category": "Small Animal"
   },
   {
@@ -73,8 +72,7 @@
     "weight": 390,
     "age": 5,
     "location": "Naogaon",
-    "description": "Hariana breed cow from the northern region. Excellent for Qurbani with high meat yield. Strong bones, disease-free, and well-maintained with natural feed.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Cows_on_a_farm.jpg/320px-Cows_on_a_farm.jpg",
+    "description": "https://i.ibb.co.com/PZKD3rfn/6228idea99hariaana.jpg",
     "category": "Large Animal"
   },
   {
@@ -87,7 +85,7 @@
     "age": 1,
     "location": "Chapai Nawabganj",
     "description": "Local deshi khashi (castrated goat) with tender and tasty meat. Ideal for family Qurbani. Naturally raised without any hormones.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Above_Gotland_sheep_2009.jpg/320px-Above_Gotland_sheep_2009.jpg",
+    "image": "https://i.ibb.co.com/9HhDzGnZ/1-925.webp",
     "category": "Small Animal"
   },
   {
@@ -100,7 +98,6 @@
     "age": 4,
     "location": "Dhaka",
     "description": "Holstein Friesian crossbreed with massive body weight. Top choice for large Qurbani. Raised in a modern farm with balanced diet and regular vet checkups.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Cow_female_black_white.jpg/320px-Cow_female_black_white.jpg",
-    "category": "Large Animal"
+    "image": "https://i.ibb.co.com/BVzk73jN/168922581064206995.png"
   }
 ]
