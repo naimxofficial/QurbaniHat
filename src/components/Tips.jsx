@@ -13,7 +13,7 @@ const Tips = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 animate__animated animate__slideInUp'>
             {/* card 1 */}
-            <div className='border-green-500 border p-4 bg-base-100 shadow-xl rounded-2xl'>
+            <div className='border-green-500 border p-4 bg-base-100 shadow-xl rounded-2xl hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
             <div className=' flex items-center gap-4 '>
                 <MdOutlineHealthAndSafety  className='p-2 rounded-2xl bg-[#eaf3de] text-[#3b6d11] text-6xl'/>
                 <div className='border-b/20'>
@@ -25,7 +25,7 @@ const Tips = () => {
             <p className='text-sm not-md:text-xs opacity-70 font-semibold mt-5'>Goat & sheep must be at least 1 year old. <br /> Cows and buffalo must be at least 2 years old. <br /> Camels must be at least 5 years old <br /> before they are eligible for Qurbani sacrifice.</p>
             </div>
             {/* card 2 */}
-            <div className='border border-blue-500 p-4 bg-base-100 shadow-xl rounded-2xl'>
+            <div className='border border-blue-500 p-4 bg-base-100 shadow-xl rounded-2xl hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
             <div className=' flex items-center gap-4 '>
                 <IoTimeOutline className='p-2 rounded-2xl bg-[#e6f1fb] text-[#185fb9] text-6xl'/>
                 <div className='border-b/20'>
@@ -37,7 +37,7 @@ const Tips = () => {
             <p className='text-sm not-md:text-xs opacity-70 font-semibold mt-5'>The animal must be active, well-fed, and free <br /> from any visible illness. It cannot be blind, <br />excessively thin, lame, or have broken horns. <br /> Animals with missing more than half their <br /> teeth are also not valid.</p>
             </div>
             {/* card 3 */}
-            <div className='border border-[#854f0b] p-4 bg-base-100 shadow-xl rounded-2xl'>
+            <div className='border border-[#854f0b] p-4 bg-base-100 shadow-xl rounded-2xl hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
             <div className=' flex items-center gap-4 '>
                 <LuBoxes className='p-2 rounded-2xl bg-[#faeeda] text-[#854f0b] text-6xl'/>
                 <div className='border-b/20'>
@@ -49,7 +49,7 @@ const Tips = () => {
             <p className='text-sm not-md:text-xs opacity-70 font-semibold mt-5'>One cow or buffalo counts as 7 Qurbani <br /> shares. Up to 7 people can pool together to <br /> purchase one cow, with each person <br /> receiving the full spiritual reward of one <br /> Qurbani sacrifice.</p>
             </div>
             {/* card 4 */}
-            <div className='border border-[#6f50b7] p-4 bg-base-100 shadow-2xl rounded-2xl'>
+            <div className='border border-[#6f50b7] p-4 bg-base-100 shadow-2xl rounded-2xl hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
             <div className=' flex items-center gap-4 '>
                 <LuAlignVerticalDistributeEnd  className='p-2 rounded-2xl bg-[#eeedfe] text-[#6f50b7] text-6xl'/>
                 <div className='border-b/20'>
@@ -61,7 +61,7 @@ const Tips = () => {
             <p className='text-sm not-md:text-xs opacity-70 font-semibold mt-5'>After the sacrifice, divide the meat into 3 <br /> equal portions: one-third for your <br /> household, one-third for relatives and <br /> friends, and one-third for the poor and <br /> needy in your community.</p>
             </div>
             {/* card 5 */}
-            <div className='border border-[#0f6e56] p-4 bg-base-100 shadow-2xl rounded-2xl'>
+            <div className='border border-[#0f6e56] p-4 bg-base-100 shadow-2xl rounded-2xl hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
             <div className=' flex items-center gap-4 '>
                 <SlCalender  className='p-2 rounded-2xl bg-[#e1f5ee] text-[#0f6e56] text-6xl'/>
                 <div className='border-b/20'>
@@ -73,7 +73,7 @@ const Tips = () => {
             <p className='text-sm not-md:text-xs opacity-70 font-semibold mt-5'>Qurbani begins after the Eid al-Adha prayer on the 10th of Dhul Hijjah and remains valid until sunset on the 12th of Dhul Hijjah — a window of approximately 3 days.</p>
             </div>
             {/* card 6 */}
-            <div className='border border-[#b33c1d] p-4 bg-base-100 shadow-2xl rounded-2xl'>
+            <div className='border border-[#b33c1d] p-4 bg-base-100 shadow-2xl rounded-2xl hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
             <div className=' flex items-center gap-4 '>
                 <RiKnifeLine  className='p-2 rounded-2xl bg-[#faece7] text-[#b33c1d] text-6xl'/>
                 <div className='border-b/20'>

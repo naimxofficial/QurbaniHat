@@ -5,7 +5,7 @@ import Link from 'next/link';
 const FeaturedCard = ({ animal }) => {
 
     return (
-        <div className='p-4 animate__animated animate__fadeInUpBig bg-base-100 rounded-2xl shadow-xl'>
+        <div className='p-4 animate__animated animate__fadeInUpBig bg-base-100 rounded-2xl shadow-xl hover:-translate-y-1 hover:shadow-2xl transition-all duration-300'>
             <div className="w-full relative  mx-auto   rounded-2xl h-60 ">
 
                 <Image fill src={animal.image} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" alt={animal.name} className='object-cover rounded-2xl'></Image>
@@ -21,7 +21,7 @@ const FeaturedCard = ({ animal }) => {
                     <div className="badge badge-outline">{animal.weight}kg</div>
                     <div className="badge badge-outline">{animal.age}y</div>
                 </div>
-                {/* <Link href="/allanimals"><Button className={'w-full object-bottom'}>View Details</Button></Link> */}
+                <Link href={`/animals/${animal.id}`}><Button className={'w-full object-bottom'}>View Details</Button></Link>
             </div>
 
         </div>

@@ -1,6 +1,7 @@
 import Featured from "@/components/Featured";
 import Hero from "@/components/Hero";
 import Tips from "@/components/Tips";
+import TopBreeds from "@/components/TopBreeds";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero></Hero>
       <Featured></Featured>
       <Tips></Tips>
+      <TopBreeds></TopBreeds>
     </div>
   );
 }
