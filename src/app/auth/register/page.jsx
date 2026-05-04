@@ -2,8 +2,10 @@
 import { authClient } from "@/lib/auth-client";
 import { Check, Eye, EyeSlash } from "@gravity-ui/icons";
 import { Button, Description, FieldError, Form, Input, InputGroup, Label, TextField } from "@heroui/react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { FcGoogle } from "react-icons/fc";
 import { toast } from "react-toastify";
 const Register = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -33,6 +35,12 @@ const Register = () => {
         }
 
     };
+
+    const handleGoogleLogin = async () => {
+        await authClient.signIn.social({
+            provider: "google",
+        })
+    }
 
 
     return (
@@ -124,7 +132,10 @@ const Register = () => {
                         Reset
                     </Button>
                 </div>
+                <h4 className="text-center font-bold text-gray-500">Or</h4>
+                <Button onClick={handleGoogleLogin} variant="outline" className={'w-full'}><FcGoogle />Login with Google</Button>
             </Form>
+            <p className="text-center"><span className="font-semibold text-red-500">Note: </span>If your already have an account, please go to the <Link className="font-bold underline" href='/auth/login'>Login page.</Link></p>
         </div>
     );
 };

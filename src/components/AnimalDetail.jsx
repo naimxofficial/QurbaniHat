@@ -4,15 +4,14 @@ import { FaSearchLocation } from "react-icons/fa";
 import { IoPricetagOutline } from "react-icons/io5";
 import { LiaWeightHangingSolid } from "react-icons/lia";
 import { SiClockify } from "react-icons/si";
+import BookingForm from "./BookingForm";
 
 const AnimalDetail = ({animal}) => {
     return (
-        <div className="p-5 bg-base-300 shadow-sm rounded-2xl w-11/12 mx-auto flex justify-between items-center not-lg:items-baseline gap-5 not-lg:flex-col">
-            {/* <div className="w-full relative  mx-auto   rounded-2xl h-100 md:h-200">
+        <div>
 
-                <Image fill src={animal.image} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" alt={animal.name} className='object-cover rounded-2xl'></Image>
-
-            </div> */}
+        <div className="mt-5 p-5 bg-base-300 shadow-sm rounded-2xl w-11/12 mx-auto flex justify-between items-center not-lg:items-baseline gap-5 not-lg:flex-col">
+           
             <Image width={500} height={0} alt={animal.name} src={animal.image} className='rounded-2xl not-lg:mx-auto'></Image>
             <div className="space-y-3">
 
@@ -35,6 +34,9 @@ const AnimalDetail = ({animal}) => {
 
             </div>
 
+        </div>
+
+        <BookingForm></BookingForm>
         </div>
     );
 };

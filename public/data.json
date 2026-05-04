@@ -1,4 +1,4 @@
-[ 
+[
   {
     "id": 1,
     "name": "Deshi Shahi Cow",
@@ -92,7 +92,7 @@
   },
   {
     "id": 8,
-    "name": "Friesian Cross Cow",
+    "name": "Friesian Cross",
     "type": "Cow",
     "breed": "Holstein Friesian Cross",
     "price": 320000,
