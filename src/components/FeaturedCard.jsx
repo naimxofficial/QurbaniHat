@@ -21,7 +21,7 @@ const FeaturedCard = ({ animal }) => {
                     <div className="badge badge-outline">{animal.weight}kg</div>
                     <div className="badge badge-outline">{animal.age}y</div>
                 </div>
-                <Link href={`/animals/${animal.id}`}><Button className={'w-full object-bottom'}>View Details</Button></Link>
+                <Link href={`/allanimals/${animal.id}`}><Button className={'w-full object-bottom'}>View Details</Button></Link>
             </div>
 
         </div>

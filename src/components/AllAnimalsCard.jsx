@@ -23,7 +23,7 @@ const AllAnimalsCard = ({ animal }) => {
                         <div className="badge badge-outline">{animal.age}y</div>
                     </div>
                 </div>
-                <Link href="/allanimals"><Button className={'w-full object-bottom'}>View Details</Button></Link>
+                <Link href={`/allanimals/${animal.id}`}><Button className={'w-full object-bottom'}>View Details</Button></Link>
             </div>
 
         </div>

@@ -46,7 +46,7 @@ const TopBreeds = () => {
     return (
         <div className='w-11/12 mx-auto my-7'>
             <h1 className='text-center font-bold text-5xl not-md:text-3xl mb-3'>TOP BREEDS</h1>
-            <p className='text-2xl not-md:text-md text-center mb-7'>Best livestock breeds for Qurbani in Bangladesh</p>
+            <p className='text-2xl not-md:text-md text-center mb-7'>Best livestock breeds for Qurbani.</p>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {breeds.map((breed) => (
@@ -85,7 +85,7 @@ const TopBreeds = () => {
                                     {breed.type}
                                 </span>
                                 <a
-                                    href={`/animals/${breed.id}`}
+                                    href={`/allanimals/${breed.id}`}
                                     className={`text-xs font-bold px-3 py-1 rounded-full ${breed.badgeBg} ${breed.badgeText}`}
                                 >
                                     View →
