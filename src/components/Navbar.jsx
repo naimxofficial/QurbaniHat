@@ -40,7 +40,7 @@ const Navbar = () => {
                         <li><Link href={'/'}>Home</Link></li>
                         <li><Link href={'/allanimals'}>All Animals</Link></li>
                     </ul>
-                </div><Link href={'/'}><Image height={0} width={320} src={logo} alt='logo'></Image></Link>
+                </div><Link href={'/'}><Image quality={100} height={400} width={400} src={logo} alt='logo'></Image></Link>
 
             </div>
             <div className="navbar-center hidden lg:flex">
